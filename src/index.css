@@ -1,0 +1,97 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+body {
+  margin: 0;
+  background: #f1f5f8;
+}
+.exam-container {
+  width: 90vw;
+  max-width: 500px;
+  margin: 4rem auto;
+}
+.questions {
+  background: #fff;
+  border-radius: 5px;
+  padding: 3rem;
+}
+.questions h2 {
+  font-size: 2rem;
+}
+.input-text {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 15px 5px;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  transition: all .2s;
+}
+.success {
+color: green;
+}
+.danger {
+    color: red;
+}
+.questions .start-btn {
+  background: #ffb100;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.default {
+  cursor: default !important;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.options button {
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+  background: #5bb4f3;
+  border-radius: 5px;
+}
+.selected {
+  background: #0065ad !important;
+}
+.nextQuestion {
+  display: block;
+  margin-left: auto;
+  padding: 15px 10px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background: crimson;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.nextQuestion:hover {
+  background: rgb(167, 2, 35);
+}
+.restart-btn {
+  padding: 15px 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: crimson;
+}

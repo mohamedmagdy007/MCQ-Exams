@@ -1,0 +1,42 @@
+export const Questions = [
+  {
+    que: "what is 1+3",
+    optionA: "24",
+    optionB: "41",
+    optionC: "4",
+    optionD: "2",
+    answer: "C",
+  },
+  {
+    que: "what is 5 + 3",
+    optionA: "24",
+    optionB: "8",
+    optionC: "4",
+    optionD: "2",
+    answer: "B",
+  },
+  {
+    que: "what is 20 + 3",
+    optionA: "24",
+    optionB: "41",
+    optionC: "4",
+    optionD: "23",
+    answer: "D",
+  },
+  {
+    que: "what is 9 + 3",
+    optionA: "12",
+    optionB: "41",
+    optionC: "4",
+    optionD: "2",
+    answer: "A",
+  },
+  {
+    que: "what is 7 + 3",
+    optionA: "12",
+    optionB: "10",
+    optionC: "4",
+    optionD: "2",
+    answer: "B",
+  },
+];
