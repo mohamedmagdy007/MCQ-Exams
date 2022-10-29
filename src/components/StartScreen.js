@@ -14,7 +14,7 @@ const StartScreen = () => {
   };
   return (
     <div className="start-screen">
-      <h2>Start Quiz</h2>
+      <h2>Start Exam</h2>
       <input
         type="text"
         placeholder="Enter Your Name"

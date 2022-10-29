@@ -31,7 +31,7 @@ export const questionSlice = createSlice({
       state.optionChosen = "";
     },
     restartExam: (state) => {
-      state.questions = state.questions.sort(() => 0.5 - Math.random());
+      state.questions.sort(() => 0.5 - Math.random());
       state.currentQuestion = 0;
       state.score = 0;
       state.examStarted = "start";
